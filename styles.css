@@ -1,0 +1,169 @@
+
+
+/* Global Styles */
+.page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    
+
+}
+
+/* Header */
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.header h1 {
+    display: block;
+    font-size: 1.5rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+/* Home hero slideshow */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+}
+
+.mySlide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.mySlide.active {
+    opacity: 1;
+}
+
+.myslide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+/* content */
+
+.about-map, .entertainment{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0;
+    align-items: center;
+}
+
+.text-map, .entertainmnet-text{
+    flex: 1;
+}
+
+.about-map img, .entertainment img{
+    width: 500px;
+    height: auto;
+    border-radius: 4px;
+}
+
+
+.content-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.card {
+    width: 33%;
+}
+
+.card a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.card a:hover {
+    cursor: pointer;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    line-height: 1.5;
+}
+
+.content-image {
+    width: 500px;
+    height: auto;
+}
+
+/* Footer */
+
+.footer-nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.footer-nav ul li a {
+    display: block;
+   
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
