@@ -12,3 +12,4 @@ image 11: https://media.istockphoto.com/id/610041376/photo/beautiful-sunrise-ove
 image 12: https://media.istockphoto.com/id/482612302/photo/saona-island-beach.jpg?s=612x612&w=0&k=20&c=ov0DpVD5z7WDaCTKehKExOlpR8f1_MvYpsOgHmDY5rQ=
 image 13: https://media.istockphoto.com/id/475903022/photo/tropical-paradise-beach.jpg?s=612x612&w=0&k=20&c=0ORMXgxXe596w9f2EotDqQtBvrlsljY6OdCuW6CtuLQ=
 image 14: https://media.istockphoto.com/id/1440551026/photo/young-man-riding-on-a-zip-line-rope-in-an-extreme-adventure-jungle-in-xiveracruz-mexico.jpg?s=612x612&w=0&k=20&c=XT4mzni-mDHk9fMSShsOsq6WMifFNZjmbBHIoObtXe4=
+image 15: https://media.istockphoto.com/id/1320244412/photo/young-caucasian-woman-in-swimming-pool-on-beautiful-tropical-bay-blue-sky-and-ocean-summer.jpg?s=612x612&w=0&k=20&c=mUN5vVPBv_KreaKAJt0j2Y87BuFwaA5UhHBFGqEr_yY=

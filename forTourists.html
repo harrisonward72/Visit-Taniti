@@ -3,27 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Tourists | Discover Taniti</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Visit Taniti!</title>
 </head>
 <body>
-    <div class="page-container">
-        <div class="header">
-            <h1>Discover Taniti</h1>
-            <nav>
+
+    <header class="header">
+        <div class="header-container">
+            <h1>
+                <a href="index.html" class="logo-link">Discover Taniti</a>
+            </h1>
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="forTourists.html">For Tourists</a></li>
+                    <li><a href="forTourists.html" class="active">For Tourists</a></li>
                     <li><a href="thingsToDo.html">Things To Do</a></li>
                     <li><a href="bookNow.html">Book Now</a></li>
                 </ul>
             </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero hero-tourists">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h2>Visitor Guide</h2>
+                <p>Everything you need to know before your trip to Taniti</p>
+            </div>
+        </section>
+        <section class="section info-section">
             <div class="container">
-                <img src="images/volcano.jpg" alt="image of a volcano">
                 <h2>Tourist Information</h2>
                 <p>
                     Although Taniti is a small island, its infrastructure is well-developed to cater to tourists. 
@@ -35,44 +49,33 @@
                 <p>
                     Taniti has two supermarkets, a hospital, 10 restaurants, a convenience store open 24 hours a day.
                 </p>
-            </div>
-            <div class="content-wrapper">
-                <div class="content">
-                    <h2>Frequently Requested Information</h2>
-                    <ul>
-                        <li>
-                            Power outlets are 120 volts (same as the US).
-                        </li>
-                        <li>
-                            Alcohol is not allowed to be served or sold between midnight and 9:00 AM.
-                        </li>
-                        <li>
-                            The drinking age on Taniti is 18 years old.
-                        </li>
-                        <li>
-                            Many younger Tanitians speak fluent English. Very little English is spoken in rural areas and by the older population.
-                        </li>
-                        <li>
-                            There is one hospital and several clinics. The hospital has many multilingual employees.
-                        </li>
-                        <li>
-                            Violent crime is very rare on Taniti, however as tourism has increased there have been more reports of pick pocketings and petty crime.
-                        </li>
-                        <li>
-                            Taniti enjoys a large number of national holidays and many tourist attractions and restaurants will be closed on holidays, please plan accordingly.
-                        </li>
-                        <li>
-                            Taniti uses the US dollar as its currency, but many businesses will also accept Euros and Yen. Several banks can facilitate currency exchange and 
-                            many businesses accept most major credit cards.
-                        </li>
-                    </ul>
-                </div>
-                <div class="content-image">
-                    <img src="images/happyTourist.jpg" alt="a picture of an island paradise">
+                <a href="bookNow.html">
+                    <button class="cta-button">Book Now!</button>
+                </a>
+                <div class="list-with-float">
+                    <div class="info-text">
+                        <h3>Frequently Requested Information</h3>
+                        <ul class="info-list">
+                            <li>Power outlets are 120 volts (same as the US).</li>
+                            <li>Alcohol is not allowed to be served or sold between midnight and 9:00 AM.</li>
+                            <li>The legal drinking age on Taniti is 18 years old.</li>
+                            <li>Many younger Tanitians speak fluent English. Very little English is spoken in rural areas and by the older population.</li>
+                            <li>There is one hospital and several clinics. The hospital has many multilingual employees.</li>
+                            <li>Violent crime is very rare on Taniti, however as tourism has increased there have been more reports of pickpocketing and petty crime.</li>
+                            <li>Taniti enjoys a large number of national holidays and many tourist attractions and restaurants will be closed on holidays, please plan accordingly.</li>
+                            <li>Taniti uses the US dollar as its currency, but many businesses will also accept Euros and Yen. Several banks can facilitate currency exchange and many businesses accept most major credit cards.</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-image right-float">
+                        <img src="images/happyTourist.jpg" alt="Happy tourists enjoying Taniti beach paradise">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer">
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
             <nav class="footer-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -80,12 +83,15 @@
                     <li><a href="thingsToDo.html">Things To Do</a></li>
                     <li><a href="bookNow.html">Book Now</a></li>
                 </ul>
-            </nav> 
-            <div class="social-media">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-youtube"></i>
+            </nav>
+            <div class="social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
-    </div>
+    </footer>
+
+</body>
+</html>

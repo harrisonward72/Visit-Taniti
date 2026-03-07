@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,52 +11,84 @@
     <link rel="stylesheet" href="styles.css">
     <title>Visit Taniti!</title>
 </head>
+
 <body>
-    <div class="page-container">
-        <div class="header">
-            <h1>Discover Taniti</h1>
+    <header class="header">
+        <div class="header-container">
+            <h1>
+                <a href="index.html" class="logo-link">Discover Taniti</a>
+            </h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="forTourists.html">For Tourists</a></li>
                     <li><a href="thingsToDo.html">Things To Do</a></li>
-                    <li><a href="bookNow.html">Book Now</a></li>
+                    <li><a href="bookNow.html" class="active">Book Now</a></li>
                 </ul>
             </nav>
         </div>
-        <img src="images/bookNow.jpg" alt="A picture of a woman in an infinity pool overlooking a tropical island">
-        <h2>Book Your Stay!</h2>
-        <p>
-            Because this is the official Tanitian Government Tourism website we do not directly handle bookings. Below are 
-            links to external website for companies that offer transportation to and around the island, lodging, flights, and cruises.
-        </p>
-        <h2>Flights</h2>
-        <ul>
-            <li><a href="#">SouthWest Airlines - Taniti Flights</a></li>
-            <li><a href="#">Delta Airlines - Taniti Flights</a></li>
-            <li><a href="#">American Airlines - Taniti Flights</a></li>
-            <li><a href="#">Spirit Airlines - Taniti Flights</a></li>
-        </ul>
-        <h2>Cruises</h2>
-        <ul>
-            <li><a href="#">Royal Carribean - Cruise Taniti</a></li>
-            <li><a href="#">Carnival - Taniti Cruises</a></li>
-        </ul>
-        <h2>Lodging</h2>
-        <ul>
-            <li><a href="#">White Lotus Resort</a></li>
-            <li><a href="#">Aloha B&B</a></li>
-            <li><a href="#">Best Western - Hotel Taniti</a></li>
-            <li><a href="#">Mom and Pops AirBnB</a></li>
-        </ul>
-        <h2>Transportation Around the Island</h2>
-        <ul>
-            <li><a href="#">Public Bus Information</a></li>
-            <li><a href="#">Enterprise - Rent a car in Taniti</a></li>
-            <li><a href="#">Yellow Cab Taniti</a></li>
-            <li><a href="#">Moped Taniti</a></li>
-        </ul>
-        <div class="footer">
+    </header>
+    <section class="hero hero-book">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2>Book Your Stay!</h2>
+            <p>Plan your perfect vacation on Taniti</p>
+        </div>
+    </section>
+    <section class="section book-section">
+        <div class="container">
+            <h2>Book Your Trip to Taniti</h2>
+            <p class="book-intro">
+                Because this is the official Tanitian Government Tourism website we do not directly handle bookings.
+                Below are trusted providers you can search for flights, cruises, lodging, and transportation to and
+                around the island.
+            </p>
+
+            <div class="book-grid">
+                <div class="book-column">
+                    <div class="book-block">
+                        <h3>Flights</h3>
+                        <ul>
+                            <li><a href="#">SouthWest Airlines - Taniti Flights</a></li>
+                            <li><a href="#">Delta Airlines - Taniti Flights</a></li>
+                            <li><a href="#">American Airlines - Taniti Flights</a></li>
+                            <li><a href="#">Spirit Airlines - Taniti Flights</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="book-block">
+                        <h3>Cruises</h3>
+                        <ul>
+                            <li><a href="#">Royal Caribbean - Cruise Taniti</a></li>
+                            <li><a href="#">Carnival - Taniti Cruises</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="book-column book-column-right">
+                    <div class="book-block">
+                        <h3>Lodging</h3>
+                        <ul>
+                            <li><a href="#">White Lotus Resort</a></li>
+                            <li><a href="#">Aloha B&B</a></li>
+                            <li><a href="#">Best Western - Hotel Taniti</a></li>
+                            <li><a href="#">Mom and Pops Airbnb</a></li>
+                        </ul>
+                    </div>
+                    <div class="book-block">
+                        <h3>Transportation Around the Island</h3>
+                        <ul>
+                            <li><a href="#">Public Bus Information</a></li>
+                            <li><a href="#">Enterprise - Rent a car in Taniti</a></li>
+                            <li><a href="#">Yellow Cab Taniti</a></li>
+                            <li><a href="#">Moped Taniti</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
             <nav class="footer-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -63,12 +96,15 @@
                     <li><a href="thingsToDo.html">Things To Do</a></li>
                     <li><a href="bookNow.html">Book Now</a></li>
                 </ul>
-            </nav> 
-            <div class="social-media">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-youtube"></i>
+            </nav>
+            <div class="social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
-    </div>
+    </footer>
+</body>
+
+</html>
